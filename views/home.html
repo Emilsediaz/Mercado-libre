@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mercado Libre</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+                rel="stylesheet" /> 
+                <link rel="stylesheet" href="../public/style.css">
+        </head>
+        <body>
+            <header>
+                <a ref="/">
+                <img src = "..\images\logo-mercado-liebre.svg">
+            </a>
+            <div> lugar para poner barra de busqueda</div>
+
+            <div> comprá en cuotas y sin tarjeta de credito</div>
+            
+            <nav> 
+                
+                    <li>Ofertas</li>
+                    <li>Tienda oficiales</li>
+                    <li>Vender</li>
+                    <li>Ayuda</li>
+                    <li>Crea tu cuenta</li>
+                    <li>Ingresa</li>
+                    <li>Mis compras</li>
+                </nav>
+                    
+                <div class="burger-menu">
+                    <i class="fas fa-bars"></i>
+                    </div>
+                    <form>action="/registro method="Post">
+                        <div> 
+                            <label>Nombre y apellido:</label>
+                            <input type="nombre" name="nombreCompleto">
+                        </div>
+                        <div>
+                            <label>Correo electrónico:</label>
+                            <input type="email" name="emailUsuario">
+                        </div>
+                        <div> 
+                            <label>fecha de nacimiento:</label>
+                            <input type="date" name="fecha">
+                        </div>
+                        <div>
+                            <label>Domicilio:</label>
+                            <input type="domicilio" name="domicilio">
+                        </div>
+                        <div> 
+                            <label>Perfil del usuario:</label>
+                            <input type="perfil" name="perfil">
+                        </div>
+                        <div> 
+                            
+                            <label>Categorias de interés:</label>
+                            <select>
+                            <option>Electo</option>
+                            <option>Moda</option>
+                            <option>Hogar</option>
+                            <option>Juguetería</option>
+                            <option>Vida sana</option>
+                        </select>
+                        </div>
+                        <div> 
+                            <label>Foto del Usuario:</label>
+                            <input type="file" name="foto"accept=".jpg">
+                        </div>
+                        <div> 
+                            <label>Contraseña:</label>
+                            <input type="password" name="passwordUsuario">
+                        </div>
+                        <div> 
+                            <label>Confirmar Contraseña:</label>
+                            <input type="password" name="passwordUsuario">
+                        </div>
+                        <div> 
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Borrar</button>
+                        </div>
+
+                    </form>
+                    <form> action="/registro" method="Post">
+                        <div>
+                        <label>Nombre:</label>
+                        <input type="text" name="usuario">
+                        </div>
+                        <div>
+                            <label>Contraseña:</label>
+                        <input type="password" name="clave">
+                    </div>
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>
+                    </form>
+            
+    </header>
+    <main class="main">
+        <section>
+        <p class="titular"> Seccion: Basado en tu ultima visita</p>
+        
+        <img src ="../images/img-cafetera-moulinex.jpg" alt="máquina para hacer café"/>
+        <ul>
+        <li class="precio">$6.770</li>
+        <li class="descuento">40% off</li>
+       <li class="descripción"> Cafetera Moulinex</li>
+    </ul>
+</section>
+<section>
+
+        <img src= "../images/img-macbook-pro-2019.jpg" alt="computadora portatil"/>
+
+        <ul>
+        <li class="precio">$230.000</li>
+        <li class="descuento">20% off</li>
+        <li class="descripción">MacBook Pro 2019</li>
+    </ul>
+</section>
+
+<section>
+        <img src="../images/img-samsung-galaxi-s10.jpg" alt="celular"/>
+        <ul>
+        <li class="precio">70.500</li>
+        <li class="descuento">10% off</li>
+        <li class="descripción">Samsung Galaxy</li>
+    </ul>
+</section>
+
+        <section>
+        <img src= "../images/img-tv-samsung-smart.jpg" alt="televisor"/>
+        <ul>
+        <li class="precio">23.200</li>
+        <li class="descuento">5% off</li>
+        <li class="descripción">SmartTv Samsung 43"</li>
+    </ul>
+</section>
+    <aricle>
+        <ul>
+
+        <p>Seccion de ofertas</p>
+        
+        <li> imagen de la cafetera </li>
+        <li>$6.770</li>
+        <li>40% off</li>
+        <li> Cafetera Moulinex</li>
+        
+        <li>imagen de MacBook</li>
+        <li>$230.000</li>
+        <li>20% off</li>
+        <li>MacBook Pro 2019</li>
+
+        <li>imagen del Samsung</li>
+        <li>70.500</li>
+        <li>10% off</li>
+        <li>Samsung Galaxy</li>
+        
+        <li>imagen SmartTv</li>
+        <li>23.200</li>
+        <li>5% off</li>
+        <li>SmartTv Samsung 43"</li>
+    </ul>
+
+</aricle>
+
+</main> 
+</body>
+<footer>
+
+    <h1>Paga con tarjeto o en efectivo</h1>
+    <p>Con Mercado Libre Cash, tenés sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+
+<h1>Envio gratis desde $ 2500</h1>
+<p> Solo por estar registrad@ en Mercado Libre tenés envios gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+
+<h1>Seguridad de principio a fin</h1>
+<p>¿No te gusta? ¡Devolvelo! En Mercado Libre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+
+<h2> Copyright 1999-2020 Mercado Libre S.R.L</h2>
+
+
+
+</footer>   
+
+ </body>
+
+</html>
